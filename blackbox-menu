@@ -1,0 +1,7 @@
+[begin] ( QEMU Menu             )
+   [exec] (Install OS) { ~/test-install }
+   [exec] (Start session) { ~/test-run }
+   [exec] (Kill session) { killall qemu-system-i386 }
+   [exec] (VNC session) { vncviewer localhost }
+   [exit] (Exit)
+[end]
